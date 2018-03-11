@@ -193,7 +193,7 @@
 		text-decoration: none;
 	}
 
-		a:hover {
+		a:hover, a i:hover {
 			border-bottom-color: transparent;
 			color: #34a58e !important;
 		}
