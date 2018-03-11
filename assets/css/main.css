@@ -724,6 +724,27 @@
 		.icon > .label {
 			display: none;
 		}
+.fas,
+.fab {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+	}
+
+		.fas:before,
+		.fab:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+		.fas > .label,
+		.fabs > .label {
+			display: none;
+		}
 
 /* List */
 
