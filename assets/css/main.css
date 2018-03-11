@@ -193,8 +193,11 @@
 		text-decoration: none;
 	}
 
-	
-		a:hover, a i:hover {
+
+		a:hover{
+			border-bottom-color: transparent;
+			color: #34a58e !important;
+		}i:hover {
 			border-bottom-color: transparent;
 			color: #34a58e !important;
 		}
