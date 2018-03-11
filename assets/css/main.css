@@ -1,6 +1,11 @@
-/*@import url(font-awesome.min.css);*/
+@import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
 
+/*
+	Multiverse by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
 
 /* Reset */
 
@@ -188,12 +193,7 @@
 		text-decoration: none;
 	}
 
-
-		a:hover{
-			border-bottom-color: transparent;
-			color: #34a58e !important;
-		}
-		i:hover {
+		a:hover {
 			border-bottom-color: transparent;
 			color: #34a58e !important;
 		}
@@ -724,27 +724,6 @@
 		.icon > .label {
 			display: none;
 		}
-.fas,
-.fab {
-		text-decoration: none;
-		border-bottom: none;
-		position: relative;
-	}
-
-		.fas:before,
-		.fab:before {
-			-moz-osx-font-smoothing: grayscale;
-			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
-			font-style: normal;
-			font-weight: normal;
-			text-transform: none !important;
-		}
-
-		.fas > .label,
-		.fabs > .label {
-			display: none;
-		}
 
 /* List */
 
@@ -803,14 +782,6 @@
 				}
 
 					ul.icons li .icon:before {
-						font-size: 1.5em;
-					}
-
-				ul.icons li .fab {
-					color: #505051;
-				}
-
-					ul.icons li .fab:before {
 						font-size: 1.5em;
 					}
 
@@ -1493,33 +1464,6 @@
 					}
 
 						#header nav > ul > li a.icon:before {
-							color: #505051;
-							float: right;
-							margin-left: 0.75em;
-						}
-
-						#header nav > ul > li a:hover {
-							color: #ffffff !important;
-						}
-
-						#header nav > ul > li a.active {
-							background-color: #242629;
-						}
-
-					#header nav > ul > li a {
-						-moz-transition: background-color 0.5s ease;
-						-webkit-transition: background-color 0.5s ease;
-						-ms-transition: background-color 0.5s ease;
-						transition: background-color 0.5s ease;
-						border: 0;
-						color: #ffffff;
-						display: inline-block;
-						letter-spacing: 0.1em;
-						padding: 0 1.65em;
-						text-transform: uppercase;
-					}
-
-						#header nav > ul > li a .fas:before {
 							color: #505051;
 							float: right;
 							margin-left: 0.75em;
