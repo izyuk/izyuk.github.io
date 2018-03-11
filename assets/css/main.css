@@ -785,6 +785,14 @@
 						font-size: 1.5em;
 					}
 
+				ul.icons li .fab {
+					color: #505051;
+				}
+
+					ul.icons li .fab:before {
+						font-size: 1.5em;
+					}
+
 		ul.actions {
 			cursor: default;
 			list-style: none;
@@ -1464,6 +1472,33 @@
 					}
 
 						#header nav > ul > li a.icon:before {
+							color: #505051;
+							float: right;
+							margin-left: 0.75em;
+						}
+
+						#header nav > ul > li a:hover {
+							color: #ffffff !important;
+						}
+
+						#header nav > ul > li a.active {
+							background-color: #242629;
+						}
+
+					#header nav > ul > li a {
+						-moz-transition: background-color 0.5s ease;
+						-webkit-transition: background-color 0.5s ease;
+						-ms-transition: background-color 0.5s ease;
+						transition: background-color 0.5s ease;
+						border: 0;
+						color: #ffffff;
+						display: inline-block;
+						letter-spacing: 0.1em;
+						padding: 0 1.65em;
+						text-transform: uppercase;
+					}
+
+						#header nav > ul > li a .fas:before {
 							color: #505051;
 							float: right;
 							margin-left: 0.75em;
